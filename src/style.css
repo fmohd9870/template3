@@ -101,3 +101,47 @@ body {
   display: inline-block;
   text-align: right;
 }
+@media only screen and (max-width:420px){
+  .content{
+    width: 100%;
+    margin-left: 0px;
+  }
+  .banner_content{
+    width: 90%;
+  }
+  .block{
+    width: 90%;
+  }
+  .block_image{
+    width: 90%;
+    margin-left: 10%;
+  }
+  .block_content{
+    width: 90%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+  }
+  .block_section{
+    margin-left: 0px;;
+  }
+  .footer_content{
+    display: block;
+    padding: 5px;
+  }
+  .footer_content .bottom_span p{
+    text-align: center;
+    margin-right: 0px;
+  }
+  .footer_content .bottom_span .input{
+    margin-top: 0px;
+    width: 72%
+    margin-left : 13%;
+  }
+  .footer_content .bottom_span .submit{
+    width: 50%;
+    margin-left: 25%;
+  }
+  .footer_content .bottom_span{
+    width: 100%;
+  }
+}

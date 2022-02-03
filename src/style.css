@@ -26,3 +26,35 @@ body{
    padding-right: 10px;
    list-style: none;
 }
+.banner{
+   background-color: #EEEEEE;
+}
+.banner_content{
+   padding: 20px;
+   width:25%
+}
+.banner_content h2{
+   margin-top: 0px;
+}
+.block_image{
+   width: 90%;
+   height: 100px;
+   background: #EEEEEE;
+   margin-left: 5%;
+}
+.block_section{
+   overflow: hidden;
+   margin-top: 10px;
+   margin-left: 5%;
+}
+.block{
+   float: left;
+   width: 30%;
+   padding: 10px;
+   display: block;
+   text-align: center;
+}
+
+.block a{
+color:#000;
+}

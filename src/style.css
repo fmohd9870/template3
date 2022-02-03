@@ -37,10 +37,14 @@ body {
   margin-top: 0px;
 }
 .block_image {
-  width: 90%;
+  width: 75%;
   height: 100px;
   background: #eeeeee;
-  margin-left: 5%;
+  margin-left: 20%;
+}
+.block_content{
+  width: 75%;
+  margin-left: 20%;
 }
 .block_section {
   overflow: hidden;
@@ -50,7 +54,6 @@ body {
 .block {
   float: left;
   width: 30%;
-  padding: 10px;
   display: block;
   text-align: center;
 }

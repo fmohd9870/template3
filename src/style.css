@@ -1,60 +1,100 @@
-body{
-    margin: 0px 20px;
+body {
+  margin: 0px 20px;
 }
-.section{
-   margin-top: 45px;
+.section {
+  margin-top: 45px;
 }
-.content{
-    width:75%;
-   margin-left: 12%;
+.content {
+  width: 75%;
+  margin-left: 12%;
 }
-.header{
-   overflow: hidden;
+.header {
+  overflow: hidden;
 }
-.nav_left{
-   float: left;
-   font-size: 20px;
+.nav_left {
+  float: left;
+  font-size: 20px;
 }
-.nav_left p{
-   margin-left: 20px;
+.nav_left p {
+  margin-left: 20px;
 }
-.nav_right{
-   float: right;
+.nav_right {
+  float: right;
 }
-.nav_right ul li{
-   float: left;
-   padding-right: 10px;
-   list-style: none;
+.nav_right ul li {
+  float: left;
+  padding-right: 10px;
+  list-style: none;
 }
-.banner{
-   background-color: #EEEEEE;
+.banner {
+  background-color: #eeeeee;
 }
-.banner_content{
-   padding: 20px;
-   width:25%
+.banner_content {
+  padding: 20px;
+  width: 25%;
 }
-.banner_content h2{
-   margin-top: 0px;
+.banner_content h2 {
+  margin-top: 0px;
 }
-.block_image{
-   width: 90%;
-   height: 100px;
-   background: #EEEEEE;
-   margin-left: 5%;
+.block_image {
+  width: 90%;
+  height: 100px;
+  background: #eeeeee;
+  margin-left: 5%;
 }
-.block_section{
-   overflow: hidden;
-   margin-top: 10px;
-   margin-left: 5%;
+.block_section {
+  overflow: hidden;
+  margin-top: 10px;
+  margin-left: 5%;
 }
-.block{
-   float: left;
-   width: 30%;
-   padding: 10px;
-   display: block;
-   text-align: center;
+.block {
+  float: left;
+  width: 30%;
+  padding: 10px;
+  display: block;
+  text-align: center;
 }
 
-.block a{
-color:#000;
+.block a {
+  color: #000;
+}
+.footer {
+  overflow: hidden;
+}
+.footer_content {
+  display: flex;
+  background: #eeeeee;
+}
+.footer_content .bottom_span {
+  width: 33%;
+}
+.footer_content .bottom_span p {
+  text-align: right;
+  font-size: 30px;
+  margin-right: -15px;
+}
+.footer_content .bottom_span .input {
+  margin-top: 30px;
+  width: 247px;
+  padding: 6px;
+  margin-left: 49px;
+}
+.footer_content .bottom_span .submit {
+  margin-top: 30px;
+  width: 180px;
+  background: #288acf;
+  border: none;
+  padding: 8px;
+  color: #fff;
+  font-weight: 600;
+}
+.copyright .left_copy {
+  text-align: left;
+  display: inline-block;
+  width: 49%;
+}
+.copyright .right_copy {
+  width: 49%;
+  display: inline-block;
+  text-align: right;
 }
